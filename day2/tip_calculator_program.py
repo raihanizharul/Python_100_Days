@@ -4,6 +4,9 @@ tip=float(input("How much the tip would you like to give? $10, 13$, 15$ or other
 num_people=int(input("How many people to split the bill? "))
 
 def tip_calculator(bill: float, tip: float, num_people: int) -> float:
+    '''
+        A simple tip calculator where the total amount is bill plus total tip, divided by the number of people
+    '''
     total_amount=(bill+tip)/num_people
     return total_amount
 
