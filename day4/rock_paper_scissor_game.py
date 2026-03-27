@@ -41,6 +41,9 @@ elif user_input==1:
 elif user_input==2:
     print(scissor())
     print("Scissor")
+    
+else:
+    print("None")
 
 print("")    
 comp_input=random.choice(rand_index)
