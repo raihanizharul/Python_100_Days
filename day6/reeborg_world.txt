@@ -83,6 +83,7 @@ while not at_goal():
         move()
     elif wall_in_front():
         turn_left()
-    else:
+    elif not wall_in_front():
         move()
+    
     
